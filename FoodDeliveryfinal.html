@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="FoodDelivery.css"/>
+        <title>E-commerence website</title>
+    </head>
+    <body>
+        <nav id="nav">
+            <div class="navItem1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1Dezo9JgyY10X7QKVYf6VM_30qH0JZw8J_Q&s" width="20" height="20" alt="foodpandoa Logo" class="Logo">
+                <h1>foodpanda</h1>
+            </div>
+            <div class="navItem2">
+                <div class="search-container">
+                    <input id="searchBox" placeholder="Search for burgers, pizza, more...">
+                    <button id="searchButton">
+                    <img src="https://icons.veryicon.com/png/o/miscellaneous/monochrome-icon-1/search-521.png" alt="search">
+                    </button>
+                </div>
+            </div>
+            <div class="navItem">
+                <a class="navTitle" href="#Home">Home</h3>
+                <a href="#Menu" class="navTitle">Menu</a>
+                <a href="#Contact" class="navTitle">Contact</a>
+            </div>
+        </nav>
+         
+        <div class="homePage" id="Home">
+            <section class="homePage-content">
+                <h1 class="homeTitle">Delicious Food Delivered <br> To Your Door</h1>
+                <p class="shortText">Fast, fresh, and affordable meals anytime.</p>
+                <a href="#Menu" id="orderNow-btn">Order Now</a>
+                <img src="https://www.foodpanda.com/wp-content/uploads/2024/05/website_banner_1440x480px.png" alt="foodpanda png" id="foodpanda-png">
+            </section>
+            <section class="Featured-foods">
+                <h1 class="feature-foods-title">Popular Snacks for this month!</h1>
+                <section class="popular-grid">
+                    <div class="popular-card">
+                        <img src="https://png.pngtree.com/png-clipart/20241108/original/pngtree-delicious-and-testy-cheese-burger-png-image_16763714.png" alt="Burger">
+                        <h2>Burger</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">Juicy beef burger with cheese</p>
+                        <div class="price">MMK 8000</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="popular-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0nVm6wBI8fdkZ44sZrGY3CxsQFb3HUoXntw&s" alt="Mala Xiang Guo">
+                        <h2>Mala Xiang Guo</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">A sizzled, soup-less hot pot packed with smoky chilies and tingly peppercorns</p>
+                        <div class="price">MMK 20000</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="popular-card">
+                        <img src="https://ingoodflavor.com/wp-content/uploads/2024/05/QuailMeatball-MainP-scaled.jpg" alt="Kyay Oh Sichet">
+                        <h2>Kyay Oh Sichet</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">Chewy rice noodles tossed in fragrant garlic oil, topped with tender pork balls and quail eggs</p>
+                        <div class="price">MMK 8000</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="popular-card">
+                        <img src="https://tastesbetterfromscratch.com/wp-content/uploads/2021/07/Frozen-Hot-Chocolate25-1.jpg" alt="Iced Chocolate Lava">
+                        <h2 >Iced Chocolate Lava</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">An icy, extra-thick chocolate treat that’s as beautiful to look at as it is to drink</p>
+                        <div class="price">MMK 5000</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                </section>
+            </section>
+            <section class="discout-items">
+                <div class="title">
+                    <h1 class="discount-title">Promo for this week</h1>
+                    <h3 class="promo-title">30% Off</h3>
+                </div>
+                <section class="promo-grid">
+                    <div class="promo-card">
+                        <img src="https://www.shutterstock.com/image-photo/refreshing-glass-cola-ice-accompanied-600nw-2337547705.jpg" alt="fried potato chips with coke">
+                            <h2>Fried potato chips with coke</h2>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                            </div>
+                            <p class="description">Crispy golden potato chips with an ice-cold Coke</p>
+                            <div class="price">
+                                <span class="old">MMK 5000</span>
+                                <span class="new">MMK 3500</span>
+                            </div>
+                            <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="promo-card">
+                        <img src="https://muchbutter.com/wp-content/uploads/2021/09/139-Much-Butter-Hotang-Korean-Hot-Dog-25-768x1024.jpg" alt="Cheese Corn Dogs">
+                            <h2>Cheese Corn Dogs</h2>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                            </div>
+                            <p class="description">Deep-fried Korean corn dog with a perfect half-sausage, half-cheese filling</p>
+                            <div class="price">
+                                <span class="old">MMK 3500</span>
+                                <span class="new">MMK 2450</span>
+                            </div>
+                            <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="promo-card">
+                        <img src="https://img.freepik.com/premium-photo/mouthwatering-fried-chicken-set-featuring-crispy-fried-chicken-pieces-with-golden-crunchy-skin-set-includes-side-creamy-coleslaw-serving-golden-fries-cold-refreshing-cola_996093-6827.jpg?w=360" alt="Lotteria">
+                            <h2>Lotteria fried chicken set</h2>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                            </div>
+                            <p class="description">Crispy, golden-brown fried chicken served with savory rice, fresh coleslaw, and a refreshing Peps</p>
+                            <div class="price">
+                                <span class="old">MMK 20050</span>
+                                <span class="new">MMk 14050</span>
+                            </div>
+                            <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="promo-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAYr6MtNQlYMi-wYYNLvJ5zZkkl5oS6-C9hQ&s" alt="Bubble Tea (Boba)">
+                            <h2>Bubble Tea (Boba)</h2>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                            </div>
+                            <p class="description">Creamy, classic milk tea paired with chewy, brown sugar pearls</p>
+                            <div class="price">
+                                <span class="old">MMK 2500</span>
+                                <span class="new">MMK 1750</span>
+                            </div>
+                            <button class="buy-btn">Add to Cart</button>
+                    </div> 
+
+                </section>
+            </section>
+        </div>
+        <div class="menuPage" id="Menu">
+            <section class="food-grid">
+                    <div class="food-card">
+                        <img src="https://png.pngtree.com/png-clipart/20241108/original/pngtree-delicious-and-testy-cheese-burger-png-image_16763714.png" alt="Burger">
+                        <h2>Burger</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">Juicy beef burger with cheese</p>
+                        <div class="price">MMK 8000</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="food-card">
+                        <img src="https://png.pngtree.com/png-vector/20241211/ourmid/pngtree-authentic-italian-pizza-with-cheese-and-fresh-vegetable-toppings-png-image_14714611.png" alt="Pizza">
+                        <h2>Pizza</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">Gooey mozzarella pizza with zesty tomato sauce</p>
+                        <div class="price">MMK 15000</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="food-card">
+                        <img src="https://www.shutterstock.com/image-photo/refreshing-glass-cola-ice-accompanied-600nw-2337547705.jpg" alt="fried potato chips with coke">
+                        <h2>Fried potato chips with coke</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">Crispy golden potato chips with an ice-cold Coke</p>
+                        <div class="price">MMK 5000</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="food-card">
+                        <img src="https://static.vecteezy.com/system/resources/previews/074/000/662/non_2x/delicious-chicken-noodles-with-red-chili-on-transparent-background-in-a-bowl-png.png" alt="Mama Htaung">
+                        <h2>Mama Htaung</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">Fire-red pounded noodles with a massive kick of chili and fish sauce</p>
+                        <div class="price">MMK 3500</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="food-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0nVm6wBI8fdkZ44sZrGY3CxsQFb3HUoXntw&s" alt="Mala Xiang Guo">
+                        <h2>Mala Xiang Guo</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">A sizzled, soup-less hot pot packed with smoky chilies and tingly peppercorns</p>
+                        <div class="price">MMK 20000</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="food-card">
+                        <img src="https://muchbutter.com/wp-content/uploads/2021/09/139-Much-Butter-Hotang-Korean-Hot-Dog-25-768x1024.jpg" alt="Cheese Corn Dogs">
+                        <h2>Cheese Corn Dogs</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">Deep-fried Korean corn dog with a perfect half-sausage, half-cheese filling</p>
+                        <div class="price">MMK 3500</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="food-card">
+                        <img src="https://ingoodflavor.com/wp-content/uploads/2024/05/QuailMeatball-MainP-scaled.jpg" alt="Kyay Oh Sichet">
+                        <h2>Kyay Oh Sichet</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">Chewy rice noodles tossed in fragrant garlic oil, topped with tender pork balls and quail eggs</p>
+                        <div class="price">MMK 8000</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="food-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAYr6MtNQlYMi-wYYNLvJ5zZkkl5oS6-C9hQ&s" alt="Bubble Tea (Boba)">
+                        <h2>Bubble Tea (Boba)</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">Creamy, classic milk tea paired with chewy, brown sugar pearls</p>
+                        <div class="price">MMK 2500</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="food-card">
+                        <img src="https://img.freepik.com/premium-photo/mouthwatering-fried-chicken-set-featuring-crispy-fried-chicken-pieces-with-golden-crunchy-skin-set-includes-side-creamy-coleslaw-serving-golden-fries-cold-refreshing-cola_996093-6827.jpg?w=360" alt="Lotteria">
+                        <h2>Lotteria fried chicken set</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">Crispy, golden-brown fried chicken served with savory rice, fresh coleslaw, and a refreshing Peps</p>
+                        <div class="price">MMK 20050</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="food-card">
+                        <img src="https://thumbs.dreamstime.com/b/strawberry-italian-soda-plastic-cup-isolated-white-backgro-background-clipping-path-included-69896479.jpg" alt="Strawberry or Passion Sod">
+                        <h2>Strawberry or Passion Soda</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">An ice-cold, sparkling soda infused with luscious strawberry syrup</p>
+                        <div class="price">MMK 4500</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    <div class="food-card">
+                        <img src="https://tastesbetterfromscratch.com/wp-content/uploads/2021/07/Frozen-Hot-Chocolate25-1.jpg" alt="Iced Chocolate Lava">
+                        <h2 >Iced Chocolate Lava</h2>
+                        <div class="rating">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span> <!-- Example: 4/5 -->
+                        </div>
+                        <p class="description">An icy, extra-thick chocolate treat that’s as beautiful to look at as it is to drink</p>
+                        <div class="price">MMK 5000</div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                </section> 
+        </div>
+        
+        <!--Contact Section-->
+
+        <section class="full-page-contact" id="Contact">
+            <div class="contact-header">
+                <h1 class="contact-main-title">Contact Us</h1>
+                <p class="contact-subtitle">"We'd love to hear from you"</p>
+            </div>
+            
+            <div class="contact-flex-wrapper">
+                <div class="cnt-card cnt-form-area">
+                    <div class="cnt-row">
+                        <div class="cnt-input-group">
+                            <label class="cnt-label">Your Name</label>
+                            <input type="text" class="cnt-field" placeholder="Enter name">
+                        </div>
+                        <div class="cnt-input-group">
+                            <label class="cnt-label">Your Email</label>
+                            <input type="email" class="cnt-field" placeholder="Enter email">
+                        </div>
+                    </div>
+
+                    <div class="cnt-input-group">
+                        <label class="cnt-label">Subject</label>
+                        <input type="text" class="cnt-field">
+                    </div>
+
+                    <div class="cnt-input-group">
+                        <label class="cnt-label">Message</label>
+                        <textarea class="cnt-area" placeholder="Write your message here..."></textarea>
+                    </div>
+
+                    <button type="button" class="cnt-submit-btn">Send Message</button>
+                </div>
+
+                <div class="cnt-card cnt-info-area">
+                    <div class="cnt-info-row">
+                        <div class="cnt-sub-box">
+                            <h3 class="cnt-h3">Direct Contact</h3>
+                            <div class="cnt-icon-line">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Phone_iOS.png" alt="phone">
+                                <span>+1-900-738-7790</span>
+                            </div>
+                        </div>
+                        <div class="cnt-sub-box">
+                            <h3 class="cnt-h3">General Inquiries</h3>
+                            <div class="cnt-socials">
+                                <img src="https://img.freepik.com/premium-vector/vector-facebook-social-media-icon-illustration_534308-21672.jpg?w=740" alt="fb">
+                                <img src="https://img.freepik.com/free-vector/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.jpg?w=740" alt="ig">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cnt-map-box">
+                        <img src="Image Folder/Screenshot 2026-04-04 152854.png" alt="map location">
+                    </div>
+                </div>
+            </div>
+            <p class="cnt-footer-note">We usually respond within 2-4 hours</p>
+            
+        </section>
+
+        <section class="bottom-bar">
+            <div class="bar">
+                <div class="bar-left">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVgzSnAZkIxmao0IuAwCzJz1LmIEjsS2jecw&s" alt="foodpanda-log" class="logo">
+                    <img src="https://ingoodflavor.com/wp-content/uploads/2024/05/QuailMeatball-MainP-scaled.jpg" alt="snack" class="icon">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0nVm6wBI8fdkZ44sZrGY3CxsQFb3HUoXntw&s" alt="snack" class="icon">
+                    <img src="https://muchbutter.com/wp-content/uploads/2021/09/139-Much-Butter-Hotang-Korean-Hot-Dog-25-768x1024.jpg" alt="snack" class="icon">
+                </div>
+                <div class="bar-right">
+                    <p class="info">About Us</p>
+                    <p class="info">Careers</p>
+                    <p class="info">Terms</p>
+                    <p class="info">Privacy</p>
+                    <button class="info-btn">@ 2026 foodpanda</button>
+                </div>
+            </div>
+        </section>
+
+        <!--Payment box-->
+        <div class="overlay" id="overlay">
+            <div class="payment">
+                <h1 class="payTitle">Personal Informations</h1><br>
+                <label>Name and Surname</label><br>
+                <input type="text" placeholder="Enter your name" class="payInput"><br>
+                <label>Phone Number</label><br>
+                <input type="number" placeholder="+95 123456789" class="payInput"><br>
+                <label>Address</label><br>
+                <input type="text" placeholder="Enter your location" class="payInput"><br>
+                <h1 class="payTitle">Card Informations</h1>
+                <div class="cardIcons">
+                    <img src="https://play-lh.googleusercontent.com/cnKJYzzHFAE5ZRepCsGVhv7ZnoDfK8Wu5z6lMefeT-45fTNfUblK_gF3JyW5VZsjFc4=w240-h480-rw" width="40" height="40" alt="card photo" class="cardIcon">
+                    <img src="https://play-lh.googleusercontent.com/rPq4GMCZy12WhwTlanEu7RzxihYCgYevQHVHLNha1VcY5SU1uLKHMd060b4VEV1r-OQ" width="40" height="40" alt="card photo" class="cardIcon">
+                    <img src="https://ayapay.com/wp-content/uploads/2024/09/ayapay-feature.jpg" width="40" height="40" alt="card photo" class="cardIcon">
+                </div>
+                <input type="password" class="payInput" placeholder="Card Number">
+                <div class="cardInfo">
+                    <input type="text" placeholder="mm" class="payInput sm">
+                    <input type="text" placeholder="yyyy" class="payInput sm">
+                    <input type="text" placeholder="cvv" class="payInput sm">
+                </div>
+                <button class="payButton">Checkout!</button>
+                <span class="close">X</span>
+            </div>
+        </div>
+
+        <div class="totalBox">
+            <h2>Total Items: <span id="totalItems">0</span></h2>
+            <h2>Total Price: MMK <span id="totalPrice">0</span></h2>
+        </div>
+        <script src="FoodDelivery.js"></script>
+        
+    </body>
+</html>
